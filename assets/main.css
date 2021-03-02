@@ -1,0 +1,104 @@
+body {
+  	background-image: linear-gradient(white, black);
+  	margin-bottom: 10%;
+}
+
+.start {
+	bottom: 0;
+	font-size: 26px;
+	color: white;
+	text-align: center;
+	margin-top: 5vw;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.start:hover {
+	cursor: pointer;
+}
+
+.lines {
+	display: block;
+	filter: invert(1);
+	margin-top: 0vw;
+z-index: -2;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  opacity: 0.6;
+}
+
+.lines:hover {
+	filter: invert(1);
+animation-iteration-count: infinite;
+	opacity: 0.2;
+	transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+.type3 {
+	color: white;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	line-height: 2.7;
+	font-size: 65px;
+	font-weight: 4px;
+}
+
+.click {
+	color: grey;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	line-height: 2.7;
+	font-size: 15px;
+	font-weight: 4px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  body {
+background-image: none;
+	}
+	.type3 {
+	color: black;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	line-height: 2.7;
+	font-size: 65px;
+	font-weight: 4px;
+}
+
+	.click {
+	color: grey;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	line-height: 2.7;
+	font-size: 55px;
+	font-weight: 4px;
+	}
+	.start {
+	bottom: 0;
+	font-size: 50px;
+	color: black;
+	text-align: center;
+	margin-top: 5vw;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
